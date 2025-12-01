@@ -1,16 +1,16 @@
 # claude-code-installation-with-gemini-cli .
-# yeah sab powershell run at administrater mein run krna h.
+### yeah sab powershell run at administrater mein run krna h.
 # step 1 
- Generate gemini api key from google ai studio.
+### Generate gemini api key from google ai studio.
 # step 2
-Required tool install karen is command sa.
+### Required tool install karen is command sa.
  ```npm install -g @anthropic-ai/claude-code @musistudio/claude-code-router```
 # step 3 
-Folder create kren.
+### Folder create kren.
 ```mkdir $HOME/.claude-code-router```
 ```mkdir $HOME/.claude-code```
 # step 4 
-config.json create kren window method k lia.
+### config.json create kren window method k lia.
 ```notepad $HOME/.claude-code-router/config.json```
 # step 5 jab note pad open ho to yeah paste kren remember api key mein ja k google api key dalen or save kr len.
 # 
@@ -45,7 +45,7 @@ config.json create kren window method k lia.
 }
 ```
 # step 6
- yeah commad terminal mein likh kr is mein bhi apni api key paste kren yad rahen yeah step k bad powershell close krdena.
+ ### yeah commad terminal mein likh kr is mein bhi apni api key paste kren yad rahen yeah step k bad powershell close krdena.
 ``` [System.Environment]::SetEnvironmentVariable('GOOGLE_API_KEY', 'YOUR_KEY_HERE', 'User')```
 # step 7 again powershell open kr h run at administration krna h or yeah paste krna h confirmation k lia k api set howe k nahi.
 ```echo $env:GOOGLE_API_KEY```
@@ -54,7 +54,7 @@ config.json create kren window method k lia.
 ```ccr version```
 ``` echo $env:GOOGLE_API_KEY```
 # step 9 
- daily work flow start kren.
+ ### daily work flow start kren.
 ``` ccr start```
 # step 10 
 # claude code open kren.
