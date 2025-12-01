@@ -1,4 +1,5 @@
-# Claude-code-installation-with-gemini-cli .
+# Claude-code-installation-with-gemini
+.
 ### yeah sab powershell run at administrator mein run krna h.
 # step 1 
 ### Generate gemini api key from google ai studio.
